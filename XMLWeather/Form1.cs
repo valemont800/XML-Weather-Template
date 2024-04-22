@@ -15,6 +15,7 @@ namespace XMLWeather
     {
         // TODO: create list to hold day objects
         public static List<Day> days = new List<Day>();
+        
 
         public Form1()
         {
@@ -31,6 +32,8 @@ namespace XMLWeather
         private void ExtractForecast()
         {
             XmlReader reader = XmlReader.Create("http://api.openweathermap.org/data/2.5/forecast/daily?q=Stratford,CA&mode=xml&units=metric&cnt=7&appid=3f2e224b815c0ed45524322e145149f0");
+
+
 
             while (reader.Read())
             {
