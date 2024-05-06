@@ -68,7 +68,7 @@ namespace XMLWeather
                 pictureBox1.Image = Properties.Resources._13d;
             }
 
-            date1.Text = DateTime.Now.AddDays(1).DayOfWeek.ToString();
+            //date1.Text = DateTime.Now.AddDays(1).DayOfWeek.ToString();
             max1.Text = Form1.finalMax + "°";
             min1.Text = Form1.finalMin + "°";
             //condition1.Text = Form1.days[1].condition;

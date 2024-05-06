@@ -33,7 +33,6 @@
             this.min1 = new System.Windows.Forms.Label();
             this.max1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.date1 = new System.Windows.Forms.Label();
             this.date2 = new System.Windows.Forms.Label();
             this.min2 = new System.Windows.Forms.Label();
             this.max2 = new System.Windows.Forms.Label();
@@ -123,17 +122,6 @@
             this.label5.TabIndex = 63;
             this.label5.Text = "____________________________";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // date1
-            // 
-            this.date1.AutoSize = true;
-            this.date1.BackColor = System.Drawing.Color.Transparent;
-            this.date1.ForeColor = System.Drawing.Color.White;
-            this.date1.Location = new System.Drawing.Point(145, 23);
-            this.date1.Name = "date1";
-            this.date1.Size = new System.Drawing.Size(30, 13);
-            this.date1.TabIndex = 64;
-            this.date1.Text = "Date";
             // 
             // date2
             // 
@@ -429,7 +417,6 @@
             this.Controls.Add(this.max3);
             this.Controls.Add(this.min2);
             this.Controls.Add(this.max2);
-            this.Controls.Add(this.date1);
             this.Controls.Add(this.forecastLabel);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.min1);
@@ -454,7 +441,6 @@
         private System.Windows.Forms.Label min1;
         private System.Windows.Forms.Label max1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label date1;
         private System.Windows.Forms.Label date2;
         private System.Windows.Forms.Label min2;
         private System.Windows.Forms.Label max2;

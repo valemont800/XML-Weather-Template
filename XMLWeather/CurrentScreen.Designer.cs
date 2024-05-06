@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.cityOutput1 = new System.Windows.Forms.Label();
             this.maxOutput = new System.Windows.Forms.Label();
             this.maxLabel = new System.Windows.Forms.Label();
             this.minOutput = new System.Windows.Forms.Label();
@@ -47,25 +46,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // cityOutput1
-            // 
-            this.cityOutput1.AutoSize = true;
-            this.cityOutput1.BackColor = System.Drawing.Color.Transparent;
-            this.cityOutput1.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cityOutput1.ForeColor = System.Drawing.Color.White;
-            this.cityOutput1.Location = new System.Drawing.Point(411, 69);
-            this.cityOutput1.Name = "cityOutput1";
-            this.cityOutput1.Size = new System.Drawing.Size(68, 33);
-            this.cityOutput1.TabIndex = 22;
-            this.cityOutput1.Text = "City";
-            this.cityOutput1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.cityOutput1.Click += new System.EventHandler(this.cityOutput_Click);
-            // 
             // maxOutput
             // 
             this.maxOutput.BackColor = System.Drawing.Color.Transparent;
             this.maxOutput.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maxOutput.Location = new System.Drawing.Point(168, 264);
+            this.maxOutput.Location = new System.Drawing.Point(168, 284);
             this.maxOutput.Name = "maxOutput";
             this.maxOutput.Size = new System.Drawing.Size(26, 21);
             this.maxOutput.TabIndex = 32;
@@ -74,11 +59,11 @@
             // 
             this.maxLabel.AutoSize = true;
             this.maxLabel.BackColor = System.Drawing.Color.Transparent;
-            this.maxLabel.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maxLabel.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maxLabel.ForeColor = System.Drawing.Color.White;
-            this.maxLabel.Location = new System.Drawing.Point(133, 264);
+            this.maxLabel.Location = new System.Drawing.Point(133, 284);
             this.maxLabel.Name = "maxLabel";
-            this.maxLabel.Size = new System.Drawing.Size(29, 21);
+            this.maxLabel.Size = new System.Drawing.Size(43, 30);
             this.maxLabel.TabIndex = 31;
             this.maxLabel.Text = "M:";
             // 
@@ -86,7 +71,7 @@
             // 
             this.minOutput.BackColor = System.Drawing.Color.Transparent;
             this.minOutput.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.minOutput.Location = new System.Drawing.Point(84, 264);
+            this.minOutput.Location = new System.Drawing.Point(84, 284);
             this.minOutput.Name = "minOutput";
             this.minOutput.Size = new System.Drawing.Size(26, 21);
             this.minOutput.TabIndex = 30;
@@ -95,11 +80,11 @@
             // 
             this.minLabel.AutoSize = true;
             this.minLabel.BackColor = System.Drawing.Color.Transparent;
-            this.minLabel.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.minLabel.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minLabel.ForeColor = System.Drawing.Color.White;
-            this.minLabel.Location = new System.Drawing.Point(57, 264);
+            this.minLabel.Location = new System.Drawing.Point(57, 284);
             this.minLabel.Name = "minLabel";
-            this.minLabel.Size = new System.Drawing.Size(21, 21);
+            this.minLabel.Size = new System.Drawing.Size(31, 30);
             this.minLabel.TabIndex = 29;
             this.minLabel.Text = "L:";
             // 
@@ -108,7 +93,7 @@
             this.currentOutput.BackColor = System.Drawing.Color.Transparent;
             this.currentOutput.Font = new System.Drawing.Font("Century Gothic", 45.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.currentOutput.ForeColor = System.Drawing.Color.White;
-            this.currentOutput.Location = new System.Drawing.Point(58, 136);
+            this.currentOutput.Location = new System.Drawing.Point(58, 156);
             this.currentOutput.Name = "currentOutput";
             this.currentOutput.Size = new System.Drawing.Size(141, 106);
             this.currentOutput.TabIndex = 28;
@@ -153,11 +138,11 @@
             // conditionOutput
             // 
             this.conditionOutput.BackColor = System.Drawing.Color.Transparent;
-            this.conditionOutput.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.conditionOutput.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.conditionOutput.ForeColor = System.Drawing.Color.White;
-            this.conditionOutput.Location = new System.Drawing.Point(333, 272);
+            this.conditionOutput.Location = new System.Drawing.Point(277, 295);
             this.conditionOutput.Name = "conditionOutput";
-            this.conditionOutput.Size = new System.Drawing.Size(49, 13);
+            this.conditionOutput.Size = new System.Drawing.Size(167, 48);
             this.conditionOutput.TabIndex = 44;
             // 
             // dayOutput
@@ -165,7 +150,7 @@
             this.dayOutput.BackColor = System.Drawing.Color.Transparent;
             this.dayOutput.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dayOutput.ForeColor = System.Drawing.Color.White;
-            this.dayOutput.Location = new System.Drawing.Point(-2, 69);
+            this.dayOutput.Location = new System.Drawing.Point(-2, 89);
             this.dayOutput.Name = "dayOutput";
             this.dayOutput.Size = new System.Drawing.Size(115, 23);
             this.dayOutput.TabIndex = 45;
@@ -177,7 +162,7 @@
             this.dayOfYearOutput.BackColor = System.Drawing.Color.Transparent;
             this.dayOfYearOutput.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dayOfYearOutput.ForeColor = System.Drawing.Color.White;
-            this.dayOfYearOutput.Location = new System.Drawing.Point(109, 69);
+            this.dayOfYearOutput.Location = new System.Drawing.Point(109, 89);
             this.dayOfYearOutput.Name = "dayOfYearOutput";
             this.dayOfYearOutput.Size = new System.Drawing.Size(150, 23);
             this.dayOfYearOutput.TabIndex = 46;
@@ -189,7 +174,7 @@
             this.timeOutput.BackColor = System.Drawing.Color.Transparent;
             this.timeOutput.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.timeOutput.ForeColor = System.Drawing.Color.White;
-            this.timeOutput.Location = new System.Drawing.Point(236, 69);
+            this.timeOutput.Location = new System.Drawing.Point(236, 89);
             this.timeOutput.Name = "timeOutput";
             this.timeOutput.Size = new System.Drawing.Size(71, 23);
             this.timeOutput.TabIndex = 47;
@@ -201,9 +186,9 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox1.Image = global::XMLWeather.Properties.Resources._01d;
-            this.pictureBox1.Location = new System.Drawing.Point(277, 123);
+            this.pictureBox1.Location = new System.Drawing.Point(277, 143);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(167, 135);
+            this.pictureBox1.Size = new System.Drawing.Size(178, 149);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 48;
             this.pictureBox1.TabStop = false;
@@ -219,12 +204,14 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(231, 30);
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.ForeColor = System.Drawing.Color.Transparent;
+            this.button1.Image = global::XMLWeather.Properties.Resources.pin_removebg_preview;
+            this.button1.Location = new System.Drawing.Point(213, 14);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(28, 36);
             this.button1.TabIndex = 50;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // CurrentScreen
@@ -243,7 +230,6 @@
             this.Controls.Add(this.dayOutput);
             this.Controls.Add(this.conditionOutput);
             this.Controls.Add(this.forecastLabel);
-            this.Controls.Add(this.cityOutput1);
             this.Controls.Add(this.maxOutput);
             this.Controls.Add(this.maxLabel);
             this.Controls.Add(this.minOutput);
@@ -258,7 +244,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label cityOutput1;
         private System.Windows.Forms.Label maxOutput;
         private System.Windows.Forms.Label maxLabel;
         private System.Windows.Forms.Label minOutput;
